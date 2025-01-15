@@ -1,0 +1,7 @@
+let mensagemDeErro = 'Erro! Preencha todos os campos';
+alert (mensagemDeErro);
+let nome = prompt ('Qual o nome do usuário?');
+let idade = prompt ('Qual é a idade?');
+if (idade >= 18) {
+    alert ('Usuário(a):  '+nome+'  Pode tirar a habilitação!');
+}
