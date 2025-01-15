@@ -1,0 +1,7 @@
+alert ('Boas vindas ao nosso site!');
+let nome = 'Lua';
+let idade = 25;
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000;
+alert ('Nome: '+nome+'  || Idade: '+idade);
+alert ('Total de vendas:  '+numeroDeVendas+'  || Saldo disponível:  R$'+saldoDisponivel);
