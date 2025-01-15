@@ -1,0 +1,2 @@
+let nome = prompt('Informe seu nome por favor:');
+alert('Bem vindo ao site '+nome);
