@@ -1,0 +1,16 @@
+alert ('Bem vindo ao site!');
+let diaSemana = prompt('Hoje é qual dia da semana?');
+console.log(diaSemana);
+let diaSabado = 'Sábado';
+let diaDomingo = 'Domingo';
+if (diaSemana == 'sábado') {
+    diaSemana = 'Sábado';
+    console.log(diaSemana);
+}   if (diaSemana == 'domingo') {
+        diaSemana = 'Domingo';
+        console.log(diaSemana);
+    } if (diaSemana == diaSabado){
+        console.log('Bom fim de semana!');
+    }else if (diaSemana == diaDomingo){
+        console.log('Bom fim de semana!');
+    } else console.log('Boa semana');
