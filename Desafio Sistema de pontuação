@@ -1,0 +1,32 @@
+alert('Bem vindo ao site Aluno ONE...');
+let nome = prompt('Digite seu primeiro nome:');
+alert('Cada resposta correta você ganha pontos, se chegar a 100 ou mais pontos você ganha!!!');
+let q01 = prompt('Em que país fica a cidade do Rio de Janeiro?');
+let q02 = prompt('Qual estado fica a cidade de Salvador?');
+let q03 = prompt('Qual resultado da soma de 3 + 7 ?');
+let q04 = prompt('Qual é a capital de Sergipe?');
+let q05 = prompt('Em que região do Brasil fica o estado da Bahia?');
+let pts = 0;
+if (q01 == 'Brasil') {
+    pts = 50;
+} else pts = -5;
+console.log(pts);
+if (q02 == 'Bahia') {
+    pts = 20+pts;
+} else pts = -5+pts;
+console.log(pts);
+if (q03 == 10) {
+    pts = 30+pts;
+} else pts = -10+pts;
+console.log(pts);
+if (q04 == 'Aracaju') {
+    pts = 10+pts;
+} else pts = -5+pts;
+console.log(pts);
+if (q05 == 'Nordeste') {
+    pts = 50+pts;
+} else pts = -5+pts;
+console.log(pts);
+if (pts >= 100) {
+    alert(`Sua pontuação final:  ${pts} PARABÉNS VOCÊ VENCEU!!!`);
+} else alert(`Sua pontuação final:  ${pts} TENTE NOVAMENTE!!!`);
