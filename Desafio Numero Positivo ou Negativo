@@ -1,0 +1,6 @@
+let num = prompt('Informe um número para saber se é positivo ou negativo:');
+console.log(num);
+
+if (num >= 0) {
+    alert(`Seu número: ${num} é Positivo`)
+} else alert(`Seu número: ${num} é Negativo`)
