@@ -1,0 +1,4 @@
+alert('Bem vindo ao seu banco e sua conta bancária');
+let clt = prompt('Informe seu nome por favor:');
+let saldo = 2500;
+alert(`Senhor(a) ${clt} seu saldo em conta atual é:  R$ ${saldo}`);
