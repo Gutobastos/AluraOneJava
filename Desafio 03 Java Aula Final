@@ -1,0 +1,45 @@
+console.log('Boas-vindas');
+let nome = 'Fabricio';
+console.log(`Olá, ${nome}`);
+alert (`Olá, ${nome}`);
+let q01 = prompt(`Qual a linguagem de programação que você mais gosta?`);
+console.log(q01);
+let valor1 = 10;
+let valor2 = 20;
+let totalValor = valor1 + valor2;
+console.log(`A soma de ${valor1} e ${valor2} é igual a ${totalValor}.`);
+let valor3 = prompt('Insira um valor para saber a diferença com o segundo valor:');
+let valor4 = prompt('Insira segundo valor:');
+// if (valor3 > valor4) {
+    totalValor = valor3 -  valor4;
+// } else {
+    // totalValor = valor4 - valor3;
+// }
+console.log(`A diferença entre ${valor3} e ${valor4} é igual a ${totalValor}.`);
+let idade = prompt('Qual a sua idade?');
+if (idade >= 18) {
+    console.log(`${nome} sua idade é ${idade} então você é MAIOR de idade!`);
+}
+let numero = prompt('Insira um número para saber se ele é POSITIVO ou NEGATIVO:');
+if (numero > 0) {
+    console.log(`O número ${numero} é POSITIVO.`);
+} else if (numero < 0) {
+    console.log(`O número ${numero} é NEGATIVO`);
+} else {
+    console.log(`O número ${numero} é ZERO.`);
+}
+let cont = 0;
+while (cont < 10) {
+    cont++;
+    console.log(cont);
+}
+let nota = prompt('Insira uma nota:');
+if (nota >= 7) {
+    console.log(`Sua nota é ${nota} e está APROVADO!`);
+} else {
+    console.log(`Sua nota é ${nota} e está REPROVADO!`);
+}
+let numAleatorio = console.log(parseInt(Math.random()+1));
+let numAleatorio10 = console.log(parseInt(Math.random() * 10 +1));
+let numAleatorio100 = console.log(parseInt(Math.random() * 100 +1));
+let numAleatorio1000 = console.log(parseInt(Math.random() * 1000 +1));
