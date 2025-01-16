@@ -1,0 +1,7 @@
+let num = 1;
+let contador = 0;   
+num = prompt ('Insira um número para contagem regressiva até 0:')
+while (contador <= num) {
+    alert (`Contagem até ${num}: ${contador}`)
+    contador++;
+}
