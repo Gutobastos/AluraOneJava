@@ -1,5 +1,5 @@
 let contador = 10;
 while (contador >= 0) {
-    alert (`Contagem até 10: ${contador}`)
+    alert (`Contagem até 0: ${contador}`)
     contador--;
 }
