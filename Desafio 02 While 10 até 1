@@ -1,0 +1,5 @@
+let contador = 10;
+while (contador >= 1) {
+    alert (`Contagem até 10: ${contador}`)
+    contador--;
+}
