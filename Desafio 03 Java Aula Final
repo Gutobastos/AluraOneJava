@@ -39,7 +39,7 @@ if (nota >= 7) {
 } else {
     console.log(`Sua nota é ${nota} e está REPROVADO!`);
 }
-let numAleatorio = console.log(parseInt(Math.random()+1));
-let numAleatorio10 = console.log(parseInt(Math.random() * 10 +1));
-let numAleatorio100 = console.log(parseInt(Math.random() * 100 +1));
-let numAleatorio1000 = console.log(parseInt(Math.random() * 1000 +1));
+console.log(parseInt(Math.random()+1));
+console.log(parseInt(Math.random() * 10 +1));
+console.log(parseInt(Math.random() * 100 +1));
+console.log(parseInt(Math.random() * 1000 +1));
