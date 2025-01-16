@@ -1,0 +1,19 @@
+let titulo = document.querySelector('h1');
+titulo.innerHTML = 'Hora do Desafio';
+
+function verificarConsole() {
+    console.log ('Botão foi clicado!');
+}
+function verificarAlerta() {
+    alert ('Eu amo JS');
+}
+function verificarPrompt() {
+    let cidade = prompt('Qual cidade do Brasil?');
+    alert (`Estive em ${cidade} e lembrei de você.`);
+}
+function verificarSoma() {
+    let valor1 = parseInt (prompt('Insira um valor:'));
+    let valor2 = parseInt (prompt('Insira outro valor:'));
+    let valorTotal = valor1 + valor2;
+    alert (`Resultado das somas dos valores: ${valorTotal}`);
+}
