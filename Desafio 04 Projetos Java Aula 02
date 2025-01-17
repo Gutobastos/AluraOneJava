@@ -1,0 +1,56 @@
+function calcularIMC(p, a){
+    let imc = 0;
+    imc = p / ((a * a) / 1000);
+    imc = parseInt(imc * 10);
+    return alert(`Seu IMC: ${imc}`);
+}
+calcularIMC(87, 181);
+
+
+function calcularFatorial(n){
+    let loop = 1;
+    let valor = 0;
+    while (loop <= n) {
+        valor = valor + (n * (n - loop));
+        loop++;
+    }
+    return alert (`O fatorial de 4 é: ${valor}.`)
+}
+calcularFatorial(4);
+
+function dolarBrl(usd, brl) {
+    let conversao = 0;
+    conversao = usd * brl;
+    return alert(`Conversão do dolar para Real Brasil: R$ ${conversao}`);
+}
+dolarBrl(4.80, 1);
+
+
+function calcularAreaRetangulo  (a, l, b){
+    let metroQuadrado = 0;
+    let perimetroQuadrado = 0;
+    metroQuadrado = a * l;
+    perimetroQuadrado = 2 * (a + b);
+    alert (`A área do retangulo é: ${metroQuadrado} m² e seu perímetro é: ${perimetroQuadrado}.`);
+}
+calcularAreaRetangulo(3, 4, 6);
+
+function calcularAreaCircular(r, pi){
+    let areaCirculo = 0;
+    let perimetroCirculo = 0;
+    areaCirculo = pi * r ^ 2;
+    perimetroCirculo = 2 * pi * r;
+    alert (`A área do circulo é: ${areaCirculo} e seu perímetro é: ${perimetroCirculo}.`)
+}
+calcularAreaCircular(10, 3,14);
+
+function tabuadaTela(n) {
+    let multiplo = 0;
+    let total = 0;
+    while (multiplo <= n) {
+        total = multiplo * n;
+        alert (`${n} X ${multiplo} = ${total}`);
+        multiplo++;
+    }
+}
+tabuadaTela(3);
