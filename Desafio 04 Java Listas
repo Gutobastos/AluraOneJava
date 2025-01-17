@@ -1,0 +1,10 @@
+let listaGenerica = [];
+let listaDeLinguagensDeProgramacao = ['JavaScript','C','C++', 'Kotlin', 'Python'];
+listaDeLinguagensDeProgramacao.push ('Java', 'Ruby', 'GoLang');
+console.log(`${listaDeLinguagensDeProgramacao}`);
+let listaNomes = ['Java', 'Python', 'C'];
+console.log(`${listaNomes[0]}`);
+let listaSobreNomes = ['C++', 'Kotlin', 'GoLang'];
+console.log(`${listaSobreNomes[1]}`);
+let listaUltimoNome = ['JavaScript', 'Python', 'Python'];
+console.log(`${listaUltimoNome[2]}`);
