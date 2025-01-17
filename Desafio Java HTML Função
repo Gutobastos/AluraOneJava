@@ -1,0 +1,33 @@
+function exibirOla() {
+    console.log ('Olá mundo.')
+}
+exibirOla();
+
+function exibirOlaNome(nome) {
+    console.log(`Olá, ${nome}`);
+}
+exibirOlaNome('Alice');
+
+function dobroNumero(numero) {
+    return (numero * 2);
+}
+let resultadoDobro = dobroNumero(5);
+alert(`O dobro de 5 é ${resultadoDobro}.`);
+
+function calcularMedia(a, b, c) {
+    return (a + b + c) / 3;
+}
+let media = calcularMedia(4, 7, 10);
+alert(`A média de (4, 7, 10) é ${media}.`);
+
+function maiorNumero (a, b) {
+    return a > b ? a : b;
+}
+let maior = maiorNumero(10, 12);
+alert(`O maior numéro entre (10 e 12) é ${maior}.`);
+
+function dobroDeSi(a) {
+    return a * a;
+}
+let dobro = dobroDeSi(3);
+alert(`O dobro de 3 é ${dobro}.`);
